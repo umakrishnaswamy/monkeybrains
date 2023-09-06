@@ -1,0 +1,13 @@
+diff --git a/fun_run.py b/fun_run.py
+index 2db5c73..f7acb33 100644
+--- a/fun_run.py
++++ b/fun_run.py
+@@ -3,6 +3,6 @@ import wandb
+ wandb.init(project='monkeybrains')
+ 
+ for i in range(10):
+-    wandb.log(i)
++    wandb.log({'accuracy': i})
+ 
+ wandb.finish()
+\ No newline at end of file

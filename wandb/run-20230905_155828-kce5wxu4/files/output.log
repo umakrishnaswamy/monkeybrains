@@ -1,0 +1,14 @@
+Traceback (most recent call last):
+  File "/Users/umakrishnaswamy/projects/monkeybrains/fun_run.py", line 6, in <module>
+    wandb.log(i)
+  File "/Users/umakrishnaswamy/Desktop/wandb/build/__editable__.wandb-0.15.9.dev1-py3-none-any/wandb/sdk/wandb_run.py", line 389, in wrapper
+    return func(self, *args, **kwargs)
+  File "/Users/umakrishnaswamy/Desktop/wandb/build/__editable__.wandb-0.15.9.dev1-py3-none-any/wandb/sdk/wandb_run.py", line 340, in wrapper_fn
+    return func(self, *args, **kwargs)
+  File "/Users/umakrishnaswamy/Desktop/wandb/build/__editable__.wandb-0.15.9.dev1-py3-none-any/wandb/sdk/wandb_run.py", line 330, in wrapper
+    return func(self, *args, **kwargs)
+  File "/Users/umakrishnaswamy/Desktop/wandb/build/__editable__.wandb-0.15.9.dev1-py3-none-any/wandb/sdk/wandb_run.py", line 1754, in log
+    self._log(data=data, step=step, commit=commit)
+  File "/Users/umakrishnaswamy/Desktop/wandb/build/__editable__.wandb-0.15.9.dev1-py3-none-any/wandb/sdk/wandb_run.py", line 1524, in _log
+    raise ValueError("wandb.log must be passed a dictionary")
+ValueError: wandb.log must be passed a dictionary

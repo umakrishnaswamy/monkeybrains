@@ -1,0 +1,35 @@
+{
+    "os": "macOS-12.3-arm64-arm-64bit",
+    "python": "3.10.11",
+    "heartbeatAt": "2023-09-05T22:58:28.873092",
+    "startedAt": "2023-09-05T22:58:28.133800",
+    "docker": null,
+    "cuda": null,
+    "args": [],
+    "state": "running",
+    "program": "/Users/umakrishnaswamy/projects/monkeybrains/fun_run.py",
+    "codePathLocal": "fun_run.py",
+    "codePath": "fun_run.py",
+    "git": {
+        "remote": null,
+        "commit": "29f9de9a566acdba885fb5306669fdeaf3207260"
+    },
+    "email": null,
+    "root": "/Users/umakrishnaswamy/projects/monkeybrains",
+    "host": "Uma-Krishnaswamy-FF7FM3XLQL.local",
+    "username": "umakrishnaswamy",
+    "executable": "/Users/umakrishnaswamy/.pyenv/versions/sdk/bin/python",
+    "cpu_count": 10,
+    "cpu_count_logical": 10,
+    "disk": {
+        "total": 926.3517189025879,
+        "used": 22.188709259033203
+    },
+    "gpuapple": {
+        "type": "arm",
+        "vendor": "Apple"
+    },
+    "memory": {
+        "total": 64.0
+    }
+}
